@@ -49,5 +49,99 @@ nav .logo {
 .early-access {
     display: flex;
     gap: 6px;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    align-items: center;
+    padding: 8px 12px;
+    justify-items: center;
+    color:#469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-section {
+  background-image: url("assets/hero-bg.png");
+  background-size:1600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 674px;
+}
+
+.hero-container {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text .white {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    /* width: 168px; */
+} 
+.hero-text .green {
+    font-size: 72px;
+    font-weight: bold;
+    color: #469165;
+    /* width: 168px; */
+    margin-bottom: 16px;
+} 
+
+.hero-text p {
+        font-size: 16px;
+        color: #FFFFFF;
+        /* border: 1px solid red; */
+        margin-bottom: 32px;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+
+.early-access {
+    margin-bottom: 16px;
+    margin-top: 116px;
+}
+
+.hero-button {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-button .btn-sbyv {
+  font-size: 16px;
+  font-weight: 600;
+  height: 44px;
+  background-color: #469165;
+  color: white;
+  padding: 12.5px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    
+}
+
+.hero-button .see-how .btn-see-how {
+  font-size: 16px;
+  font-weight: 600;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 12.5px 16px;
+  border-color: #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+    
 }
