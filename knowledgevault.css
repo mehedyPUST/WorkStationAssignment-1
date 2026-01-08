@@ -4,7 +4,6 @@
 }
 
 body {
-    width:1600px;
     background-color: #FFFFFF;
     font-family: 'Inter', sans-serif;
 }
@@ -17,7 +16,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .nav-item {
