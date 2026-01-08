@@ -45,3 +45,9 @@ nav .logo {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.early-access {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
