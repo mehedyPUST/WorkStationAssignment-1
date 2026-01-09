@@ -63,6 +63,10 @@ nav .logo {
     font-weight: 500;
 }
 
+.liveicon {
+    width: 20px;
+}
+
 .hero-section {
   background-image: url("assets/hero-bg.png");
   background-size:1600px;
