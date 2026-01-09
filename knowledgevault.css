@@ -37,6 +37,7 @@ nav .logo {
 .green-btn {
   font-size: 16px;
   font-weight: 600;
+  width: 200px;
   height: 44px;
   background-color: #469165;
   color: white;
@@ -312,18 +313,119 @@ margin: 0 auto;
 .think-container {
     width: 1360px;
     height: 384px;
-    border: 1px solid red;
     margin: 0 120px 120px 120px ;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #F7F6F2;
+    border:none;
+    border-radius: 12px;
     
 
 }
 
 .think-container .think-info {
 display: flex;
-flex-direction: column;   /* center horizontally */
-align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.think-info h1 {
+    margin-top: 80px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 40px;
+
+}
+
+.think-info p {
+   
+    color: #001931;
+    font-size: 16px;
+    justify-content: center;
+
+}
+
+.think-info .green-btn {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+footer {
+    width: 1600px;
+    height: 348px ;
+    margin: 0 auto;
+    background-color: #001931;
+}
+
+.footer-container .footer-line-1 {
+display: flex;
+justify-content: space-between;
+width: 1360px;
+height: 64px;
+padding-top: 120px;
+margin-right: 120px;
+margin-bottom: 80px;
+margin-left: 120px;
+}
+
+.footer-icons {
+ list-style: none;
+ align-items: center;
+ list-style: none;
+ display: flex;
+ gap: 16px;
+ cursor: pointer;
+ width:20px;
+}
+
+.social-link p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.twiter-btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.linkdin-btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.fb-btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+.footer-line-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-line-2 hr {
+    width: 1600px;
+}
+
