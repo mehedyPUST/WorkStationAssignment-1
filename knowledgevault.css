@@ -251,3 +251,14 @@ align-items: center;
     color: #627382;
 }
 
+.brain-section {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.brain-container {
+    width: 1360px;
+    display: flex;
+    align-items: center;
+}
+
