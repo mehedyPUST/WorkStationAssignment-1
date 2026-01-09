@@ -39,7 +39,7 @@ nav .logo {
   font-weight: 600;
   width: 200px;
   height: 44px;
-  background-color: #469165;
+  background-color: #009444;
   color: white;
   padding: 12.5px 16px;
   border: none;
@@ -58,7 +58,7 @@ nav .logo {
     align-items: center;
     padding: 8px 12px;
     justify-items: center;
-    color:#469165;
+    color:#009444;
     font-size: 16px;
     font-weight: 500;
 }
@@ -96,7 +96,7 @@ nav .logo {
 .hero-text .green {
     font-size: 72px;
     font-weight: bold;
-    color: #469165;
+    color: #009444;
     /* width: 168px; */
     margin-bottom: 16px;
 } 
@@ -125,7 +125,7 @@ nav .logo {
   font-size: 16px;
   font-weight: 600;
   height: 44px;
-  background-color: #469165;
+  background-color: #009444;
   color: white;
   padding: 12.5px 16px;
   border: none;
@@ -274,7 +274,7 @@ align-items: center;
 }
 
 .solution p {
-    color: #469165;
+    color: #009444;
     
 }
 
@@ -318,7 +318,7 @@ margin: 0 auto;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #F7F6F2;
+    background-color: #d7ffdc;
     border:none;
     border-radius: 12px;
     
